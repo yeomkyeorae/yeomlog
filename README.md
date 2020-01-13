@@ -1,24 +1,12 @@
-# yeomlog
+# yeomlog Project
 
-## Project setup
-```
-npm install
-```
+## 1. 설명
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+​	본인을 표현하는 개인 블로그를 만드는 프로젝트입니다.
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 2. 구현
+
+- Django REST API server
+- Vue.js
