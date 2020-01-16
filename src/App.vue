@@ -2,6 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/yeom.jpg">
     <HelloWorld msg="Welcome to my blog, Yeomlog"/>
+    <router-view></router-view>
   </div>
 </template>
 

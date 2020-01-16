@@ -6,7 +6,7 @@
       <a href="#" target="_blank" rel="noopener">click me</a>.
     </p>
     <ul>
-      <li><a href="#" target="_blank" rel="noopener">CV</a></li>
+      <li><router-link to="/cv">CV</router-link></li>
       <li><a href="#" target="_blank" rel="noopener">Projects</a></li>
       <li><a href="#" target="_blank" rel="noopener">Interests</a></li>
     </ul>
