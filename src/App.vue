@@ -1,18 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/yeom.jpg">
-    <HelloWorld msg="Welcome to my blog, Yeomlog"/>
-    <router-view></router-view>
+    <HelloWorld/>
+    <Navigation/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Navigation from './components/Navigation.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    Navigation
   }
 }
 </script>

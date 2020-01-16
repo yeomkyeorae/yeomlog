@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Cv from '../views/Home.vue'
+import Cv from '../views/Cv.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/cv',
     name: 'cv',
     component: Cv,
   }
