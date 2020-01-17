@@ -1,10 +1,12 @@
 <template>
+  <div>
     <ul>
+      <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/cv">CV</router-link></li>
-      <li><a href="#" target="_blank" rel="noopener">Projects</a></li>
-      <li><a href="#" target="_blank" rel="noopener">Interests</a></li>
-      <router-view/>
+      <li><router-link to="/projects">Projects</router-link></li>
+      <li><router-link to="/interests">Interests</router-link></li>
     </ul>
+  </div>
 </template>
 
 <script>
@@ -12,8 +14,7 @@ export default {
     name: 'Navigation',
 }
 </script>
-
-<style scoped>
+<style>
 h3 {
   margin: 40px 0 0;
 }
