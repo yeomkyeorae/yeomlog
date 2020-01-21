@@ -2,7 +2,7 @@
   <v-row justify="center">
     <v-dialog v-model="dialog" width="600px">
       <template v-slot:activator="{ on }">
-        <v-btn color="primary" dark v-on="on">Click Me</v-btn>
+        <v-btn color="blue" dark v-on="on">Click Me</v-btn>
       </template>
       <v-card>
         <v-card-title>
