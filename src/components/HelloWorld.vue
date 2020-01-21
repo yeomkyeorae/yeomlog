@@ -4,16 +4,26 @@
     <h1>Welcome to my blog, Yeomlog!</h1>
     <p>
       If you want to know about me,
-      <a href="#" target="_blank" rel="noopener">click me</a>.
+      <button type="button" @click="openModal">click me</button>
     </p>
   </div>
 </template>
 
 <script>
+import ClickMeModal from './ClickMeModal'
+
 export default {
   name: 'HelloWorld',
+  components: {
+    ClickMeModal
+  },
   props: {
     msg: String
+  },
+  methods: {
+    openModal() {
+      this.dialog = true
+    }
   }
 }
 </script>

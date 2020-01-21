@@ -1,8 +1,8 @@
 <template>
     <ul>
       <li><router-link to="/cv">CV</router-link></li>
-      <li><a href="#" target="_blank" rel="noopener">Projects</a></li>
-      <li><a href="#" target="_blank" rel="noopener">Interests</a></li>
+      <li><router-link to="/projects">Projects</router-link></li>
+      <li><router-link to="/interests">Interests</router-link></li>
       <router-view/>
     </ul>
 </template>
