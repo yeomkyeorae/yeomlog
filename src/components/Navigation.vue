@@ -5,10 +5,6 @@
       <li><router-link to="/cv">CV</router-link></li>
       <li><router-link to="/projects">Projects</router-link></li>
       <li><router-link to="/interests">Interests</router-link></li>
-<<<<<<< HEAD
-      <router-view/>
-=======
->>>>>>> 38d76a06b82a0ec7ab6d28ce0f07959b3ae1a921
     </ul>
   </div>
 </template>

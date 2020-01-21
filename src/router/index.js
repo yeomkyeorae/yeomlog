@@ -21,20 +21,12 @@ const routes = [
   {
     path: '/projects',
     name: 'projects',
-<<<<<<< HEAD
     component: Projects
-=======
-    component: Projects,
->>>>>>> 38d76a06b82a0ec7ab6d28ce0f07959b3ae1a921
   },
   {
     path: '/interests',
     name: 'interests',
-<<<<<<< HEAD
     component: Interests
-=======
-    component: Interests,
->>>>>>> 38d76a06b82a0ec7ab6d28ce0f07959b3ae1a921
   }
 ]
 

@@ -4,31 +4,27 @@
     <h1>Welcome to my blog, Yeomlog!</h1>
     <p>
       If you want to know about me,
-      <button type="button" @click="openModal">click me</button>
+      <ClickMeModal/>
     </p>
   </div>
 </template>
 
 <script>
-import ClickMeModal from './ClickMeModal'
+import ClickMeModal from '../components/ClickMeModal'
 
 export default {
-<<<<<<< HEAD:src/components/HelloWorld.vue
-  name: 'HelloWorld',
+  name: 'Homepage',
   components: {
     ClickMeModal
   },
-=======
-  name: 'Homepage',
->>>>>>> 38d76a06b82a0ec7ab6d28ce0f07959b3ae1a921:src/views/Homepage.vue
+  data() {
+    return {
+
+    }
+  },
   props: {
     msg: String
   },
-  methods: {
-    openModal() {
-      this.dialog = true
-    }
-  }
 }
 </script>
 
