@@ -1,11 +1,16 @@
 <template>
-  <div>
-    <h1>Projects!</h1>
-  </div>
+	<div>
+		<DropdownBtn/>
+	</div>
 </template>
 
 <script>
+import DropdownBtn from '@/components/DropdownBtn.vue'
+
 export default {
-  name: 'Projects',
+	name: 'Projects',
+	components: {
+		DropdownBtn
+	}
 }
 </script>

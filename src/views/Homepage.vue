@@ -1,6 +1,6 @@
 <template>
-  <div class="hello">
-    <img alt="Vue logo" src="../assets/yeom.jpg">
+  <div>
+    <img alt="profile" src="../assets/yeom.jpg">
     <h1>Welcome to my blog, Yeomlog!</h1>
     <p>
       If you want to know about me,
