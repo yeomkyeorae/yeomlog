@@ -1,45 +1,56 @@
 <template>
- <v-card>
+ <div>
     <v-toolbar flat color="blue-grey" dark>
 			<v-toolbar-title>Cover Letter</v-toolbar-title>
     </v-toolbar>
 
-    <v-card-text>
+		<v-divider class="my-2"></v-divider>
+
+		<h1>Name</h1>
+		Kyeorae Yeom
+
+		<v-divider class="my-2"></v-divider>
+      
+			<h1>Education</h1>
+			<div>	
+			<ol>
+				<li>asdf</li>
+				<li>qwer</li>
+			</ol>
+			</div>
+      
 			<v-divider class="my-2"></v-divider>
-      <v-text-field filled label="Name" value="Kyeorae Yeom"></v-text-field>
+
+			<h1>skills</h1>
+			<div>	
+			<ol>
+				<li>asdf</li>
+				<li>qwer</li>
+			</ol>
+			</div>
 
 			<v-divider class="my-2"></v-divider>
-      <v-textarea
-        filled
-        label="Education"
-        value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-      >
-				<div>
-					asdfasdf
-				</div>
-			</v-textarea>
 
-      <v-divider class="my-2"></v-divider>
-			<v-textarea
-        filled
-        label="Interests"
-        value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-      >
-			</v-textarea>
+			<h1>Interests</h1>
+			<div>	
+			<ol>
+				<li>asdf</li>
+				<li>qwer</li>
+			</ol>
+			</div>
 
 			<v-divider class="my-2"></v-divider>
-			<v-textarea
-        filled
-        label="Projects list"
-        value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-      >
-			</v-textarea>
-    </v-card-text>
 
+			<h1>Projects</h1>
+			<div>	
+			<ol>
+				<li>asdf</li>
+				<li>qwer</li>
+			</ol>
+			</div>
 
-
-
-  </v-card>
+			<v-divider class="my-2"></v-divider>
+  </div>
 </template>
 
 <script>
