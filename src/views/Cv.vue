@@ -6,7 +6,7 @@
 
     <v-card-text>
 			<v-divider class="my-2"></v-divider>
-      <v-text-field filled label="Name" value="asdfasdf"></v-text-field>
+      <v-text-field filled label="Name" value="Kyeorae Yeom"></v-text-field>
 
 			<v-divider class="my-2"></v-divider>
       <v-textarea
@@ -14,6 +14,9 @@
         label="Education"
         value="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
       >
+				<div>
+					asdfasdf
+				</div>
 			</v-textarea>
 
       <v-divider class="my-2"></v-divider>
