@@ -23,7 +23,9 @@
 			<h1>skills</h1>
 			<v-list>
 				<v-list-item>- Python</v-list-item>
+				<v-list-item>- Django</v-list-item>
 				<v-list-item>- Javascript</v-list-item>
+				<v-list-item>- Vue.js</v-list-item>
 				<v-list-item>- Pandas, Numpy</v-list-item>
 				<v-list-item>- InfluxDB, Grafana</v-list-item>
 				<v-list-item>- Elastic Search, Kibana</v-list-item>
@@ -33,18 +35,19 @@
 			<v-divider class="my-2"></v-divider>
 
 			<h1>Interests</h1>
-			<ol>
-				<li>asdf</li>
-				<li>qwer</li>
-			</ol>
+			<v-list>
+				<v-list-item>- Web Service(SPA)</v-list-item>
+				<v-list-item>- Data Analysis(prediction of time series)</v-list-item>
+				<v-list-item>- Deep learning(Object detection, NLP)</v-list-item>
+			</v-list>
 
 			<v-divider class="my-2"></v-divider>
 
 			<h1>Projects</h1>
-			<ol>
-				<li>asdf</li>
-				<li>qwer</li>
-			</ol>
+			<v-list>
+				<v-list-item>- Project 1</v-list-item>
+				<v-list-item>- Project 2</v-list-item>
+			</v-list>
 
 			<v-divider class="my-2"></v-divider>
   </div>
