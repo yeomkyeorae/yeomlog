@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Homepage from '../views/Homepage.vue'
 import Cv from '../views/Cv.vue'
+import Bulletin from '@/components/Bulletin.vue'
 import Projects from '../views/Projects.vue'
 import Project1 from '../components/Projects/Project1.vue'
 import Project2 from '../components/Projects/Project2.vue'
@@ -28,7 +29,12 @@ const routes = [
   {
     path: '/interests',
     name: 'interests',
-    component: Interests
+    component: Interests,
+  },
+  {
+    path: '/interests/Bulletin',
+    name: 'Bulletin',
+    component: Bulletin
   },
   {
 		path: '/projects/0',
