@@ -1,12 +1,18 @@
 <template>
   <div>
-		<h1>Footsal</h1>
+		<h1>Algorithm</h1>
+    <MenuBar></MenuBar>
   </div>
 </template>
 
 <script>
+import MenuBar from '@/components/MenuBar.vue'
+
 export default {
-    name: 'Bulletin',
+    name: 'Algorithm',
+    components: {
+      MenuBar
+    }
 }
 </script>
 <style>
