@@ -2,7 +2,12 @@
 	<div>
 		<DropdownBtn/>
 		<br>
-		<h1>Project 1</h1>
+		<div>
+		<title><h1>Project 1</h1></title>
+		</div>
+		<div>
+			<v-content>{{ intro }}</v-content>
+		</div>
 		<br>
 		<div style="width:800px; margin: 0 auto;">
 			<v-carousel>
@@ -28,6 +33,7 @@ export default {
 		},
 		data () {
       return {
+				intro: '해당 프로젝트는...',
         items: [
           {
             src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
