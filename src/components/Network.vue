@@ -2,16 +2,20 @@
   <div>
 	<h1>Network</h1>
     <MenuBar></MenuBar>
+    <v-btn class="mt-3 mb-3">글 쓰기</v-btn>
+    <PostList></PostList>
   </div>
 </template>
 
 <script>
 import MenuBar from '@/components/MenuBar.vue'
+import PostList from '@/components/PostList.vue'
 
 export default {
     name: 'Network',
     components: {
-      MenuBar
+      MenuBar,
+      PostList
     }
 }
 </script>
