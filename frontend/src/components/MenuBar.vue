@@ -1,11 +1,11 @@
 <template>
   <div>
     <ul>
-      <li><router-link to="/interests/Algorithm"><span class="span">Algorithm</span></router-link></li>
-      <li><router-link to="/interests/Os"><span class="span">OS</span></router-link></li>
-      <li><router-link to="/interests/Network"><span class="span">Network</span></router-link></li>
-      <li><router-link to="/interests/Web"><span class="span">Web</span></router-link></li>
-			<li><router-link to="/interests/DeepLearning"><span class="span">Deep Learning</span></router-link></li>
+      <li><router-link :to="{ name: 'Algorithm'}"><span class="span">Algorithm</span></router-link></li>
+      <li><router-link :to="{ name: 'OS'}"><span class="span">OS</span></router-link></li>
+      <li><router-link :to="{ name: 'Network'}"><span class="span">Network</span></router-link></li>
+      <li><router-link :to="{ name: 'Web'}"><span class="span">Web</span></router-link></li>
+			<li><router-link :to="{ name: 'DeepLearning'}"><span class="span">Deep Learning</span></router-link></li>
     </ul>
   </div>
 </template>

@@ -2,6 +2,7 @@
   <div>
     <h1>Interests</h1>
     <MenuBar></MenuBar>
+    <router-view></router-view>
   </div>
 </template>
 

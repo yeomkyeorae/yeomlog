@@ -3,6 +3,7 @@
     max-width="600"
     class="mx-auto"
   >
+
     <v-container>
       <v-row dense>
         <v-col cols="12">
@@ -40,12 +41,15 @@
 
 <script>
 export default {
-		name: 'PostList',
+    name: 'PostList',
+    props: {
+
+    },
     data(){
       return {
 
 			}
-		}
+    },
 }
 </script>
 
