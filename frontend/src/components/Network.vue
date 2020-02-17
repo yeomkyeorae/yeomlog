@@ -1,7 +1,7 @@
 <template>
   <div>
 	<h1>Network</h1>
-    <v-btn class="mt-3 mb-3" to="algorithm/create">글 쓰기</v-btn>
+    <v-btn class="mt-3 mb-3" to="network/create">글 쓰기</v-btn>
     <PostList></PostList>
   </div>
 </template>
