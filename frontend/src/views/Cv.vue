@@ -18,6 +18,16 @@
 		</v-list>
 		<v-divider class="my-2"></v-divider>
 
+		<h1>ACCOUNTS</h1>
+		<v-list>
+			<v-list-item><pre>- </pre><a target="_blank" @click="mail">duarufp06@naver.com</a></v-list-item>
+			<v-list-item><pre>- </pre><a href="https://github.com/yeomkyeorae" target="_blank">Github</a></v-list-item>
+			<v-list-item><pre>- </pre><a target="_blank">LinkedIn</a></v-list-item>
+			<v-list-item><pre>- </pre><a target="_blank">Rocket Punch</a></v-list-item>
+			<v-list-item><pre>- </pre><a target="_blank">Programmers</a></v-list-item>
+		</v-list>
+		<v-divider class="my-2"></v-divider>
+
 		<h1>CERTIFICATE</h1>
 		<v-list>
 			<v-list-item>- 정보처리기사</v-list-item>
@@ -109,6 +119,11 @@
 		data() {
 			return {
 				fullName: 'Kyeorae Yeom'
+			}
+		},
+		methods: {
+			mail() {
+				window.open('mailto:duarufp06@gmail.com');
 			}
 		}
 	}
