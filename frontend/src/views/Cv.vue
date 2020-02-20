@@ -45,7 +45,7 @@
 			<v-list-item>- Pandas, Numpy</v-list-item>
 			<v-list-item>- InfluxDB, Grafana</v-list-item>
 			<v-list-item>- Elastic Search, Kibana</v-list-item>
-			<v-list-item>- SQL</v-list-item>
+			<v-list-item>- MySQL, MariaDB</v-list-item>
 		</v-list>
 		<v-divider class="my-2"></v-divider>
 
