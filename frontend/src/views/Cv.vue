@@ -6,7 +6,7 @@
 		<v-divider class="my-2"></v-divider>
 
 		<h1>Name</h1>
-		Kyeorae Yeom
+		<h2>Kyeorae Yeom</h2>
 		<v-divider class="my-2"></v-divider>
 
 		<h1>PROFILE</h1>

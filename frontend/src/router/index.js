@@ -9,8 +9,7 @@ import Web from '@/components/Web.vue'
 import DeepLearning from '@/components/DeepLearning.vue'
 import CreateForm from '@/components/CreateForm.vue'
 import Projects from '../views/Projects.vue'
-import Project1 from '../components/Projects/Project1.vue'
-import Project2 from '../components/Projects/Project2.vue'
+import Project from '../components/Project.vue'
 import Interests from '../views/Interests.vue'
 
 Vue.use(VueRouter)
@@ -29,7 +28,10 @@ const routes = [
   {
     path: '/projects',
     name: 'projects',
-    component: Projects
+    component: Projects,
+    children: [
+      { path: ':projectId', name: 'project', component: Project, props: true}
+    ]
   },
   {
     path: '/interests',
@@ -44,16 +46,6 @@ const routes = [
       { path: ':category/create', name: 'CreateForm', component: CreateForm, props: true}
     ]
   },
-  {
-		path: '/projects/0',
-		name: 'project1',
-		component: Project1
-	},
-	{
-		path: '/projects/1',
-		name: 'project2',
-		component: Project2
-	}
 ]
 
 const router = new VueRouter({
