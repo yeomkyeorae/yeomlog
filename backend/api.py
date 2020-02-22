@@ -51,7 +51,7 @@ class CreateUser(Resource):
 mysql = MySQL()
 app.config['MYSQL_DATABASE_USER'] = 'root'
 app.config['MYSQL_DATABASE_PASSWORD'] = ''
-app.config['MYSQL_DATABASE_DB'] = 'interests'
+app.config['MYSQL_DATABASE_DB'] = 'yeomlog'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
 
