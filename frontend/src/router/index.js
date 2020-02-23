@@ -32,9 +32,12 @@ const routes = [
     path: '/interests',
     name: 'interests',
     component: Interests,
-    children: [
-      { path: 'create', name: 'CreateForm', component: InterestCreate}
-    ]
+  },
+  {
+    path: '/interests/create',
+    name: 'InterestCreate',
+    component: InterestCreate,
+    props: true
   },
 ]
 

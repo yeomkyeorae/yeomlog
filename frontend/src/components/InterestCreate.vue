@@ -1,5 +1,6 @@
 <template>
   <div justify-content="center">
+    {{ categoryId }}
     <v-form ref="form" lazy-validation>
       <v-text-field v-model="title" label="title" required></v-text-field>
       <v-textarea label="content" auto-grow></v-textarea>
@@ -14,8 +15,8 @@
   export default {
     name: 'InterestCreate',
     props: {
-      category: {
-        type: String
+      categoryId: {
+        type: Number
       }
     },
     data: () => ({
@@ -24,7 +25,7 @@
     }),
     methods: {
       back() {
-        this.$router.push(`/interests/${this.category}`)
+        this.$router.push(`/interests`)
       },
       submit() {
         // axios.post()
