@@ -2,12 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Homepage from '../views/Homepage.vue'
 import Cv from '../views/Cv.vue'
-import Algorithm from '@/components/Algorithm.vue'
-import Os from '@/components/Os.vue'
-import Network from '@/components/Network.vue'
-import Web from '@/components/Web.vue'
-import DeepLearning from '@/components/DeepLearning.vue'
-import CreateForm from '@/components/CreateForm.vue'
+import InterestCreate from '@/components/InterestCreate.vue'
 import Projects from '../views/Projects.vue'
 import Project from '../components/Project.vue'
 import Interests from '../views/Interests.vue'
@@ -38,12 +33,7 @@ const routes = [
     name: 'interests',
     component: Interests,
     children: [
-      { path: 'algorithm', name: 'Algorithm', component: Algorithm },
-      { path: 'os', name: 'OS', component: Os },
-      { path: 'network', name: 'Network', component: Network },
-      { path: 'web', name: 'Web', component: Web },
-      { path: 'deeplearning', name: 'DeepLearning', component: DeepLearning },
-      { path: ':category/create', name: 'CreateForm', component: CreateForm, props: true}
+      { path: 'create', name: 'CreateForm', component: InterestCreate}
     ]
   },
 ]

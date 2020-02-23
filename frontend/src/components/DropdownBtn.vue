@@ -13,7 +13,6 @@
           </v-list-item>
         </v-list>
       </v-menu>
-      {{ index }}
     </div>
     <Project :projectId="index"/>
   </v-container>

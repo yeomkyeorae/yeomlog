@@ -1,18 +1,17 @@
 <template>
   <div>
     <h1>Interests</h1>
-    <MenuBar></MenuBar>
-    <router-view></router-view>
+    <Interest />
   </div>
 </template>
 
 <script>
-import MenuBar from '@/components/MenuBar.vue'
+import Interest from '@/components/Interest.vue'
 
 export default {
   name: 'Interests',
   components: {
-    MenuBar
+    Interest
   }
 }
 </script>
