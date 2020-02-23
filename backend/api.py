@@ -1,4 +1,5 @@
 from flask import Flask, request
+from flask_cors import CORS
 from flask_restful import Resource, Api
 from flask_restful import reqparse
 from flaskext.mysql import MySQL
@@ -6,6 +7,7 @@ from flaskext.mysql import MySQL
 
 app = Flask(__name__)
 api = Api(app)
+CORS(app)
 
 # @app.route('/scheduler', methods=['GET', 'POST'])
 # def scheduler():
@@ -32,7 +34,7 @@ class CreateUser(Resource):
             parser.add_argument('title', type=str)
             parser.add_argument('content', type=str)
             args = parser.parse_args()
- 
+            print(args, 123123123)
             _category_id = args['category_id']
             _title = args['title']
             _content = args['content']
@@ -55,7 +57,7 @@ app.config['MYSQL_DATABASE_DB'] = 'yeomlog'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
 
-api.add_resource(CreateUser, '/user')
+api.add_resource(CreateUser, '/interest')
 
 if __name__ == '__main__':
     app.run(debug=True)
