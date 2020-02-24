@@ -31,11 +31,23 @@
         index: 0,
         items: [{
             index: 0,
-            title: 'Project 1'
+            title: '1. 푸트코트 도메인 분석 및 설계'
           },
           {
             index: 1,
-            title: 'Project 2'
+            title: '2. 공모전 팀 빌딩을 위한 웹서비스'
+          },
+          {
+            index: 2,
+            title: '3. 파이썬을 활용한 주식 코스피200 클러스터링 및 예측'
+          },
+          {
+            index: 3,
+            title: '4. 제지공장 데이터 파이프라인 구축 및 LSTM 예측'
+          },
+          {
+            index: 4,
+            title: '5. SSAFY 커뮤니티 싸파리'
           },
         ],
       }

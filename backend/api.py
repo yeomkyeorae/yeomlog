@@ -16,7 +16,7 @@ def interests(category_id):
     try:
         conn = mysql.connect()
         cursor = conn.cursor(pymysql.cursors.DictCursor)
-        cursor.execute("SELECT * FROM interests WHERE category_id=%s", category_id)
+        cursor.execute("SELECT title, content FROM interests WHERE category_id=%s", category_id)
         row = cursor.fetchall()
         resp = jsonify(row)
         resp.status_code = 200
