@@ -6,6 +6,7 @@
     <v-container>
       <v-row v-for="post in posts" :key="post.id" dense>
         <v-col cols="12">
+        <router-link :to="{ name: 'Post', params: {title: post.title, content: post.content}}">
           <v-card
             color="#385F73"
             dark
@@ -13,6 +14,7 @@
             <v-card-title class="headline">{{ post.title }}</v-card-title>
             <v-card-subtitle>{{ post.content }}</v-card-subtitle>
           </v-card>
+        </router-link>
         </v-col>
       </v-row>
     </v-container>
@@ -25,7 +27,8 @@ import axios from 'axios'
 export default {
     name: 'PostList',
     props: {
-      categoryId: {type: Number}
+      categoryId: {type: Number},
+      interestTitle: {type: String}
     },
     data(){
       return {

@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Homepage from '../views/Homepage.vue'
 import Cv from '../views/Cv.vue'
 import InterestCreate from '@/components/InterestCreate.vue'
+import Post from '@/components/Post.vue'
 import Projects from '../views/Projects.vue'
 import Project from '../components/Project.vue'
 import Interests from '../views/Interests.vue'
@@ -39,6 +40,12 @@ const routes = [
     component: InterestCreate,
     props: true
   },
+  {
+    path: '/interests/detail',
+    name: 'Post',
+    component: Post,
+    props: true
+  }
 ]
 
 const router = new VueRouter({

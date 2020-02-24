@@ -8,7 +8,7 @@
       <li><span class="span" @click="change('Web', 3)">Web</span></li>
       <li><span class="span" @click="change('Deep Learning', 4)">Deep Learning</span></li>
     </ul>
-    <v-btn class="mt-3 mb-3" :to="{ name: 'InterestCreate', params: {categoryId: categoryId}}">글 쓰기</v-btn>
+    <v-btn class="mt-3 mb-3" :to="{ name: 'InterestCreate', params: {categoryId: categoryId, interestTitle: title}}">글 쓰기</v-btn>
     <PostList :categoryId="categoryId"></PostList>
   </div>
 </template>
@@ -23,7 +23,6 @@
     },
     data() {
       return {
-        a: this.$route.path,
         title: 'Algorithm',
         categoryId: 0
       }
