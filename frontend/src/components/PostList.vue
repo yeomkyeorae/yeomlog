@@ -39,6 +39,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
     name: 'PostList',
     props: {
@@ -46,9 +48,20 @@ export default {
     },
     data(){
       return {
-
+        posts: [],
 			}
     },
+    mounted() {
+      this.getInterests()
+    },
+    methods: {
+      getInterests() {
+        axios.get(`http://127.0.0.1:5000/interest/${this.categoryId}`)
+          .then(response => {
+            console.log(response, 4444)
+          })
+      }
+    }
 }
 </script>
 
