@@ -6,12 +6,12 @@
 			</title>
 		</div>
 		<div>
-			<v-content>{{ intro }} {{ projectId }}</v-content>
+			<v-content>{{ title }}</v-content>
 			<v-img :src="tmp"></v-img>
 		</div>
 		<br>
-		<div style="width:1200px; margin: 0 auto;">
-			<v-carousel :height="1000" hide-delimiters>
+		<div style="width:1400px; margin: 0 auto;">
+			<v-carousel :height="1050" hide-delimiters>
 				<v-carousel-item v-for="(item,i) in items[projectId]" :key="i" :src="item.src" reverse-transition="fade-transition"
 					transition="fade-transition"></v-carousel-item>
 			</v-carousel>
@@ -30,11 +30,13 @@
 		props: {
 			projectId: {
 				type: Number
+			},
+			title: {
+				type: String
 			}
 		},
 		data() {
 			return {
-				intro: '해당 프로젝트는...',
 				items: {
 					0: [
 						{ src: require('@/assets/Projects/Project1/1-01.jpg')},

@@ -9,12 +9,12 @@
         </template>
         <v-list>
           <v-list-item v-for="(item, index) in items" :key="index">
-            <v-list-item @click="setProjectId(item.index)">{{item.title}}</v-list-item>
+            <v-list-item @click="setProjectId(item.index, item.title)">{{item.title}}</v-list-item>
           </v-list-item>
         </v-list>
       </v-menu>
     </div>
-    <Project :projectId="index"/>
+    <Project :projectId="index" :title="title"/>
   </v-container>
 </template>
 
@@ -29,6 +29,7 @@
     data() {
       return {
         index: 0,
+        title: '1. 푸트코트 도메인 분석 및 설계',
         items: [{
             index: 0,
             title: '1. 푸트코트 도메인 분석 및 설계'
@@ -53,8 +54,9 @@
       }
     },
     methods: {
-      setProjectId(titleIndex) {
+      setProjectId(titleIndex, title) {
         this.index = titleIndex
+        this.title = title
       }
     }
   }
