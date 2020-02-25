@@ -131,7 +131,18 @@
 						{ src: require('@/assets/Projects/Project3/3-51.jpg')},
 						{ src: require('@/assets/Projects/Project3/3-52.jpg')},
 						{ src: require('@/assets/Projects/Project3/3-53.jpg')},
-					]
+					],
+				3: [
+					{ src: require('@/assets/Projects/Project4/4-01.jpg')},
+					{ src: require('@/assets/Projects/Project4/4-02.jpg')},
+					{ src: require('@/assets/Projects/Project4/4-03.jpg')},
+					{ src: require('@/assets/Projects/Project4/4-04.jpg')},
+					{ src: require('@/assets/Projects/Project4/4-05.jpg')},
+					{ src: require('@/assets/Projects/Project4/4-06.jpg')},
+					{ src: require('@/assets/Projects/Project4/4-07.jpg')},
+					{ src: require('@/assets/Projects/Project4/4-08.jpg')},
+					{ src: require('@/assets/Projects/Project4/4-09.jpg')},
+				]
 				}
 			}
 		},
