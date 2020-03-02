@@ -48,6 +48,10 @@
           },
           {
             index: 4,
+            title: '5. SSAFY 인도 델리 해외연수 단기 프로젝트'
+          },
+          {
+            index: 5,
             title: '5. SSAFY 커뮤니티 싸파리'
           },
         ],
