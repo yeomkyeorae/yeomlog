@@ -1,12 +1,12 @@
 <template>
-  <div>
+    <div>
     <Navigation />
     <v-app>
       <v-content>
         <router-view />
       </v-content>
     </v-app>
-  </div>
+    </div>
 </template>
 
 <script>
@@ -21,11 +21,11 @@
 </script>
 
 <style>
-  #app {
+  /* #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
-  }
+  } */
 </style>
