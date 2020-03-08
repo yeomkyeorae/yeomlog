@@ -3,7 +3,7 @@
     <Navigation />
     <v-app>
       <v-content>
-        <router-view />
+        <router-view/>
       </v-content>
     </v-app>
     </div>
@@ -11,6 +11,7 @@
 
 <script>
   import Navigation from './components/Navigation.vue'
+  import '../tailwind.css'
 
   export default {
     name: 'app',
