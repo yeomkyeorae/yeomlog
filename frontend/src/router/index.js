@@ -2,11 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Homepage from '../views/Homepage.vue'
 import Cv from '../views/Cv.vue'
-import InterestCreate from '@/components/InterestCreate.vue'
-import Post from '@/components/Post.vue'
 import Projects from '../views/Projects.vue'
 import Project from '../components/Project.vue'
-import Interests from '../views/Interests.vue'
 
 Vue.use(VueRouter)
 
@@ -29,23 +26,6 @@ const routes = [
       { path: ':projectId', name: 'project', component: Project, props: true}
     ]
   },
-  {
-    path: '/interests',
-    name: 'interests',
-    component: Interests,
-  },
-  {
-    path: '/interests/create',
-    name: 'InterestCreate',
-    component: InterestCreate,
-    props: true
-  },
-  {
-    path: '/interests/detail',
-    name: 'Post',
-    component: Post,
-    props: true
-  }
 ]
 
 const router = new VueRouter({
