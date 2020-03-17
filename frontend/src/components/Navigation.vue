@@ -15,7 +15,7 @@
     <div :class="open ? 'block': 'hidden'" class="w-full flex-grow sm:flex sm:items-center sm:w-auto">
       <div class="text-sm sm:flex-grow">
         <router-link :to="cv.path" class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-white mr-4">
-          <i class="material-icons">face</i>Curriculum Vitae
+          <i class="material-icons">{{cv.icon}}</i>Curriculum Vitae
         </router-link>
         <router-link :to="projects.path" class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-white mr-4">
           <i class="material-icons">{{projects.icon}}</i>Projects
