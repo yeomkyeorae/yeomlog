@@ -1,6 +1,6 @@
 <template>
-  <div>
-      		<h1>PROJECTS</h1>
+	<div>
+		<h1>PROJECTS</h1>
 		<div class="mb-5">
 			<VueMarkdown>## 1. 푸드코트 어플리케이션 설계(아주대학교 도메인분석및SW설계)</VueMarkdown>
 			<VueMarkdown>(2016.09 ~ 2016.12)</VueMarkdown>
@@ -44,18 +44,19 @@
 			<VueMarkdown>#### 1. 시계열 데이터 전처리(resampling, moving average) 및 핸들링.</VueMarkdown>
 			<VueMarkdown>#### 2. 시계열 데이터베이스 InfluxDB 활용.</VueMarkdown>
 			<VueMarkdown>#### 3-1. (논문)전자공학회, [제조공장 원료 공정상 발생하는 고압 전력과 원료 공정 변수들의 상관관계 분석]</VueMarkdown>
-			<VueMarkdown>#### 3-2. (논문)ICUFN, [Prediction of Manufacturing Plant's Electric Power Using Maching Learning]</VueMarkdown>
+			<VueMarkdown>#### 3-2. (논문)ICUFN, [Prediction of Manufacturing Plant's Electric Power Using Maching Learning]
+			</VueMarkdown>
 			<VueMarkdown>#### 4. feature selection을 위한 Lasso, SVM, Random Forest 등 활용.</VueMarkdown>
 			<VueMarkdown>#### 5. 시계열 예측을 위한 RNN(LSTM) 활용.</VueMarkdown>
 		</div>
-		
-  </div>
+
+	</div>
 </template>
 
 <script>
-export default {
+	export default {
 
-}
+	}
 </script>
 
 <style>

@@ -1,6 +1,6 @@
 <template>
-  <div>
-      		<h1>SKILLS</h1>
+	<div>
+		<h1>SKILLS</h1>
 		<v-list>
 			<v-list-item>- Python</v-list-item>
 			<v-list-item>- Django</v-list-item>
@@ -13,13 +13,13 @@
 			<v-list-item>- Elastic Search, Kibana</v-list-item>
 			<v-list-item>- MySQL, MariaDB</v-list-item>
 		</v-list>
-  </div>
+	</div>
 </template>
 
 <script>
-export default {
+	export default {
 
-}
+	}
 </script>
 
 <style>
