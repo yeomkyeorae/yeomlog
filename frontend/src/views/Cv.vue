@@ -2,7 +2,7 @@
 	<div>
 		<div class="font-sans antialiased">
 			<nav class="flex items-center justify-between flex-wrap bg-pink-400 p-3">
-				<div class="flex items-center flex-no-shrink text-white mr-6">
+				<div class="items-center flex-no-shrink text-white mr-3">
 					<span class="font-semibold text-l tracking-tight">
 						Curriculum Vitae
 					</span>
