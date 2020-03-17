@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ClickMeModal class="mt-2" />
+    <ClickMeModal class="mt-3" />
     <v-row>
       <v-col cols="12" sm="6" offset-sm="3">
         <v-card>
@@ -8,8 +8,8 @@
             <v-row>
               <v-col v-for="n in 9" :key="n" class="d-flex child-flex" cols="4">
                 <v-card flat tile class="d-flex">
-                  <v-img :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
-                    :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`" aspect-ratio="1"
+                  <v-img :src="require(`../assets/Profile/${n}.jpeg`)"
+                    :lazy-src="require(`../assets/Profile/${n}.jpeg`)" aspect-ratio="1"
                     class="grey lighten-2">
                     <template v-slot:placeholder>
                       <v-row class="fill-height ma-0" align="center" justify="center">
