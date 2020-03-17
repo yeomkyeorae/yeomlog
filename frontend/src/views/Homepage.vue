@@ -2,11 +2,11 @@
   <div>
     <ClickMeModal class="mt-3" />
     <v-row>
-      <v-col cols="12" sm="6" offset-sm="3">
+      <v-col cols="12">
         <v-card>
           <v-container fluid>
             <v-row>
-              <v-col v-for="n in 9" :key="n" class="d-flex child-flex" cols="4">
+              <v-col v-for="n in 9" :key="n" class="d-flex child-flex" cols="12" md="4" sm="6" xs="12">
                 <v-card flat tile class="d-flex">
                   <v-img :src="require(`../assets/Profile/${n}.jpeg`)"
                     :lazy-src="require(`../assets/Profile/${n}.jpeg`)" aspect-ratio="1"
