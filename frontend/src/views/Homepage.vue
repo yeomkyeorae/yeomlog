@@ -1,5 +1,6 @@
 <template>
   <div>
+    <ClickMeModal class="mt-2" />
     <v-row>
       <v-col cols="12" sm="6" offset-sm="3">
         <v-card>
@@ -23,11 +24,6 @@
         </v-card>
       </v-col>
     </v-row>
-    <h1>Welcome to my blog, Yeomlog!</h1>
-    <p>
-      If you want to know about me,
-    </p>
-    <ClickMeModal />
   </div>
 </template>
 
