@@ -24,12 +24,12 @@ const routes = [
     name: 'cv',
     component: Cv,
     children: [
-      { path: 'profile', name: 'profile', compoent: Profile},
-      { path: 'account', name: 'account', compoent: Account},
-      { path: 'certificate', name: 'certificate', compoent: Certificate},
-      { path: 'interest', name: 'interest', compoent: Interest},
-      { path: 'skill', name: 'skill', compoent: Skill},
-      { path: 'project', name: 'cvproject', compoent: CvProject},
+      { path: 'profile', name: 'Profile', component: Profile},
+      { path: 'account', name: 'Account', component: Account},
+      { path: 'certificate', name: 'Certificate', component: Certificate},
+      { path: 'interest', name: 'Interest', component: Interest},
+      { path: 'skill', name: 'Skill', component: Skill},
+      { path: 'project', name: 'CvProject', component: CvProject},
     ]
   },
   {

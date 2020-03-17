@@ -20,27 +20,39 @@
 					<div class="text-sm sm:flex-grow">
 						<router-link :to="profile.path"
 							class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-white mr-4">
-							<i class="material-icons">{{ profile.icon }}</i>Profile
+							<span class="text-white">
+								<i class="material-icons">{{ profile.icon }}</i>Profile
+							</span>
 						</router-link>
 						<router-link :to="account.path"
 							class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-white mr-4">
-							<i class="material-icons">{{ account.icon }}</i>Accounts
+							<span class="text-white">
+								<i class="material-icons">{{ account.icon }}</i>Accounts
+							</span>
 						</router-link>
 						<router-link :to="certificate.path"
 							class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-white mr-4">
-							<i class="material-icons">{{ certificate.icon }}</i>Certificates
+							<span class="text-white">
+								<i class="material-icons">{{ certificate.icon }}</i>Certificates
+							</span>
 						</router-link>
 						<router-link :to="interest.path"
 							class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-white mr-4">
-							<i class="material-icons">{{ interest.icon }}</i>Interests
+							<span class="text-white">
+								<i class="material-icons">{{ interest.icon }}</i>Interests
+							</span>
 						</router-link>
 						<router-link :to="skill.path"
 							class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-white mr-4">
-							<i class="material-icons">{{ skill.icon }}</i>Skills
+							<span class="text-white">
+								<i class="material-icons">{{ skill.icon }}</i>Skills
+							</span>
 						</router-link>
 						<router-link :to="project.path"
 							class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-white mr-4">
-							<i class="material-icons">{{ project.icon }}</i>Projects
+							<span class="text-white">
+								<i class="material-icons">{{ project.icon }}</i>Projects
+							</span>
 						</router-link>
 					</div>
 				</div>
