@@ -4,11 +4,14 @@
       <template v-slot:activator="{ on }">
         <v-btn style="background-color:#F9ACAA" v-on="on">Click Me</v-btn>
       </template>
-      <v-card>
+      <v-card class="fontStylish">
         <v-card-title>
-          <span class="headline">Introduce!</span>
+          <span class="headline">Welcome to my world!</span>
         </v-card-title>
-        <v-card-text>My name is kyeorae Yeom. I want to be a man who lives as I want to do. I believe that doing programming will make world better than now. So I do it.
+        <v-card-text class="fontStylish">My name is kyeorae Yeom. <br>
+        I want to live as I wish.<br>
+        Programming will help make a better world.<br>
+        So I do it.
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
@@ -20,16 +23,20 @@
 </template>
 
 <script>
-export default {
+  export default {
     name: 'ClickMeModal',
-    data () {
+    data() {
       return {
         dialog: false
-    }
-  },
-}
+      }
+    },
+  }
 </script>
 
 <style>
-
+  .fontStylish {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+  }
 </style>
