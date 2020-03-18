@@ -7,6 +7,9 @@
 			</article>
 		</section>
 		<section class="section">
+			<img :src="require('../../assets/yeom.jpeg')" alt="" style="border-radius: 50%;">
+		</section>
+		<section class="section">
 			<article>
 				<h2 class="h2">Name</h2>
 				<p class="p">염겨레, Kyeorae Yeom</p>
