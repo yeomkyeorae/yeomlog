@@ -1,11 +1,36 @@
 <template>
-	<div>
-		<h1>INTERESTS</h1>
-		<v-list>
-			<v-list-item>- Web Service(SPA)</v-list-item>
-			<v-list-item>- Data Analysis(prediction of time series)</v-list-item>
-			<v-list-item>- Deep learning(Object detection, NLP)</v-list-item>
-		</v-list>
+	<div class="body">
+		<section class="section">
+			<article>
+				<h1 class="h1">Interests</h1>
+				<hr>
+			</article>
+		</section>
+		<section class="section">
+			<article>
+				<h2 class="h2">Web</h2>
+				<p class="p">- Single Page Application</p>
+				<p class="p">- React, Vue</p>
+			</article>
+		</section>
+		<hr>
+		<section class="section">
+			<article>
+				<h2 class="h2">Data Analysis</h2>
+				<p class="p">- Time Series</p>
+				<p class="p">- Interpolation & Resampling</p>
+				<p class="p">- Feature Selection</p>
+			</article>
+		</section>
+		<hr>
+		<section class="section">
+			<article>
+				<h2 class="h2">Deep Learning</h2>
+				<p class="p">- Object Detection</p>
+				<p class="p">- MobileNet</p>
+				<p class="p">- NLP</p>
+			</article>
+		</section>
 	</div>
 </template>
 
