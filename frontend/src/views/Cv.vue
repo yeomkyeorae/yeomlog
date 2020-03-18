@@ -108,4 +108,26 @@
 	.cv {
 		text-align: left;
 	}
+	.body {
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+		font-size: 1em;
+		line-height: 1.5;
+		color: rgba(#000, .87);
+	}
+	.h1 {
+		font-size: 5rem;
+	}
+	.h2 {
+		font-size: 2rem;
+		margin-bottom: 10px;
+		text-align: left;
+	}
+	.p {
+		text-align: left;
+	}
+	.section {
+		margin: 8px;
+		padding-bottom: 3px;
+		border-bottom: 1px solid rgba(#c0c0c0, .6);
+	}
 </style>
