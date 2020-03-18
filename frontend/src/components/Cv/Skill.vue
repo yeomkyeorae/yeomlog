@@ -1,18 +1,46 @@
 <template>
-	<div>
-		<h1>SKILLS</h1>
-		<v-list>
-			<v-list-item>- Python</v-list-item>
-			<v-list-item>- Django</v-list-item>
-			<v-list-item>- Javascript</v-list-item>
-			<v-list-item>- Vue.js</v-list-item>
-			<v-list-item>- Pandas, Numpy</v-list-item>
-			<v-list-item>- Scikit-learn</v-list-item>
-			<v-list-item>- Tensorflow</v-list-item>
-			<v-list-item>- InfluxDB, Grafana</v-list-item>
-			<v-list-item>- Elastic Search, Kibana</v-list-item>
-			<v-list-item>- MySQL, MariaDB</v-list-item>
-		</v-list>
+	<div class="body">
+		<section class="section">
+			<article>
+				<h1 class="h1">Skills</h1>
+				<hr>
+			</article>
+		</section>
+		<section class="section">
+			<article>
+				<h2 class="h2">Programming Language</h2>
+				<p class="p">- Python</p>
+				<p class="p">- Javascript</p>
+				<p class="p">- Java</p>
+			</article>
+		</section>
+		<hr>
+		<section class="section">
+			<article>
+				<h2 class="h2">Web</h2>
+				<p class="p">- Django</p>
+				<p class="p">- Vue.js</p>
+				<p class="p">- Bootstrap</p>
+			</article>
+		</section>
+		<hr>
+		<section class="section">
+			<article>
+				<h2 class="h2">Database</h2>
+				<p class="p">- MySQL, MariaDB</p>
+				<p class="p">- InfluxDB</p>
+				<p class="p">- Elastic Search</p>
+			</article>
+		</section>
+		<hr>
+		<section class="section">
+			<article>
+				<h2 class="h2">Data</h2>
+				<p class="p">- Pandas, Numpy</p>
+				<p class="p">- Scikit-learn</p>
+				<p class="p">- Tensorflow</p>
+			</article>
+		</section>
 	</div>
 </template>
 

@@ -10,7 +10,7 @@
 			<article>
 				<h2 class="h2">Web</h2>
 				<p class="p">- Single Page Application</p>
-				<p class="p">- React, Vue</p>
+				<p class="p">- React, Vue.js</p>
 			</article>
 		</section>
 		<hr>
