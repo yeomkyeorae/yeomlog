@@ -24,12 +24,6 @@
 								<i class="material-icons">{{ profile.icon }}</i>Profile
 							</span>
 						</router-link>
-						<router-link :to="account.path"
-							class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-white mr-4">
-							<span class="text-white">
-								<i class="material-icons">{{ account.icon }}</i>Accounts
-							</span>
-						</router-link>
 						<router-link :to="certificate.path"
 							class="no-underline block mt-4 sm:inline-block sm:mt-0 text-white hover:text-white mr-4">
 							<span class="text-white">
@@ -75,10 +69,6 @@
 					path: '/cv/profile',
 					icon: 'assignment_ind'
 				},
-				account: {
-					path: '/cv/account',
-					icon: 'person_pin'
-				},
 				certificate: {
 					path: '/cv/certificate',
 					icon: 'all_inbox'
@@ -93,7 +83,7 @@
 				},
 				project: {
 					path: '/cv/project',
-					icon: 'dashboard'
+					icon: 'work'
 				},
 			}
 		},
