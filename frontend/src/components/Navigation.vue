@@ -34,7 +34,7 @@
         open: false,
         appTitle: 'Yeomlog',
         cv: {
-          path: '/cv',
+          path: '/cv/profile',
           icon: 'face'
         },
         projects: {
