@@ -112,6 +112,10 @@
 		margin-bottom: 10px;
 		text-align: left;
 	}
+	.h3 {
+		font-size: 1rem;
+		text-align: left;
+	}
 	.p {
 		text-align: left;
 	}

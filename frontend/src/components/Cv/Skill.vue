@@ -18,6 +18,7 @@
 		<section class="section">
 			<article>
 				<h2 class="h2">Web</h2>
+				<p class="p">- HTML, CSS</p>
 				<p class="p">- Django</p>
 				<p class="p">- Vue.js</p>
 				<p class="p">- Bootstrap</p>
