@@ -5,18 +5,13 @@
 				<h1>Project 1</h1>
 			</title>
 		</div>
-		<div>
-			<v-content>{{ title }}</v-content>
-			<v-img :src="tmp"></v-img>
-		</div>
 		<br>
-		<div style="width:1400px; margin: 0 auto;">
-			<v-carousel :height="1050" hide-delimiters>
-				<v-carousel-item v-for="(item,i) in items[projectId]" :key="i" :src="item.src" reverse-transition="fade-transition"
-					transition="fade-transition"></v-carousel-item>
+			<v-carousel :height="1000" hide-delimiters>
+				<v-carousel-item v-for="(item, i) in items[projectId]" :key="i">
+					<v-img :src="item.src" aspect-ratio="1.77"></v-img>
+				</v-carousel-item>
 			</v-carousel>
 		</div>
-	</div>
 </template>
 
 <script>

@@ -3,7 +3,7 @@
     <div class="text-center mt-5">
       <v-menu open-on-hover bottom offset-y>
         <template v-slot:activator="{ on }">
-          <v-btn color="primary" dark v-on="on">
+          <v-btn style="background-color:#F9ACAA" dark v-on="on">
             Projects
           </v-btn>
         </template>
@@ -46,14 +46,14 @@
             index: 3,
             title: '4. 제지공장 데이터 파이프라인 구축 및 LSTM 예측'
           },
-          {
-            index: 4,
-            title: '5. SSAFY 인도 델리 해외연수 단기 프로젝트'
-          },
-          {
-            index: 5,
-            title: '5. SSAFY 커뮤니티 싸파리'
-          },
+          // {
+          //   index: 4,
+          //   title: '5. SSAFY 인도 델리 해외연수 단기 프로젝트'
+          // },
+          // {
+          //   index: 5,
+          //   title: '5. SSAFY 커뮤니티 싸파리'
+          // },
         ],
       }
     },
