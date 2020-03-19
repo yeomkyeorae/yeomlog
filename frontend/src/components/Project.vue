@@ -6,7 +6,7 @@
 			</title>
 		</div>
 		<br>
-			<v-carousel :height="1000" hide-delimiters>
+			<v-carousel :height="1000" hide-delimiters v-model="currentIndex">
 				<v-carousel-item v-for="(item, i) in items[projectId]" :key="i">
 					<v-img :src="item.src" aspect-ratio="1.77"></v-img>
 				</v-carousel-item>
@@ -28,10 +28,16 @@
 			},
 			title: {
 				type: String
+			},
+		},
+		watch: {
+			projectId() {
+				this.currentIndex = 0
 			}
 		},
 		data() {
 			return {
+				currentIndex: 0,
 				items: {
 					0: [
 						{ src: require('@/assets/Projects/Project1/1-01.jpg')},

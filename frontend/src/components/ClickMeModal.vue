@@ -2,13 +2,14 @@
   <v-row justify="center">
     <v-dialog v-model="dialog" width="600px">
       <template v-slot:activator="{ on }">
-        <v-btn style="background-color:#F9ACAA" v-on="on">Click Me</v-btn>
+        <v-btn style="background-color:#F9ACAA" dark v-on="on" :rounded=true>Click Me</v-btn>
       </template>
       <v-card class="fontStylish">
         <v-card-title>
           <span class="headline">Welcome to my world!</span>
         </v-card-title>
-        <v-card-text class="fontStylish">My name is kyeorae Yeom. <br>
+        <v-card-text class="fontStylish"><br><br>
+          My name is kyeorae Yeom. <br>
         I want to live as I wish.<br>
         Programming will help make a better world.<br>
         So I do it.

@@ -3,18 +3,18 @@
     <div class="text-center mt-5">
       <v-menu open-on-hover bottom offset-y>
         <template v-slot:activator="{ on }">
-          <v-btn style="background-color:#F9ACAA" dark v-on="on">
+          <v-btn style="background-color:#F9ACAA" dark v-on="on" :rounded=true>
             Projects
           </v-btn>
         </template>
         <v-list>
-          <v-list-item v-for="(item, index) in items" :key="index">
+          <v-list-item v-for="(item, index) in items" :key="index" continuous="false">
             <v-list-item @click="setProjectId(item.index, item.title)">{{item.title}}</v-list-item>
           </v-list-item>
         </v-list>
       </v-menu>
     </div>
-    <Project :projectId="index" :title="title"/>
+    <Project :projectId="index" :title="title" :currentIndex="currentIndex" />
   </v-container>
 </template>
 
@@ -30,6 +30,7 @@
       return {
         index: 0,
         title: '1. 푸트코트 도메인 분석 및 설계',
+        currentIndex : 0,
         items: [{
             index: 0,
             title: '1. 푸트코트 도메인 분석 및 설계'
